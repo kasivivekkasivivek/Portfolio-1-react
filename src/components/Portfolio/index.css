@@ -1,0 +1,59 @@
+/* Write your CSS here */
+.portfolio-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .portfolio-container {
+    flex-direction: row;
+    padding: 50px;
+    max-width: 1200px;
+  }
+}
+
+.portfolio-body-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .portfolio-body-container {
+    width: 70%;
+  }
+}
+
+.selected-section {
+  display: flex;
+  background-color: #ffffff35;
+  border: 1px solid #ffffff;
+  border-radius: 12px;
+  padding: 5px 20px 30px 20px;
+  padding-top: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .selected-section {
+    height: 72vh;
+    margin-left: 32px;
+    padding: 5px 20px 20px 20px;
+    overflow-y: auto;
+  }
+}
+
+.social-media-section {
+  display: flex;
+  background-color: #ffffff35;
+  border: 1px solid #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .social-media-section {
+    height: 10vh;
+    margin-left: 32px;
+    padding: 32px;
+  }
+}

@@ -1,0 +1,173 @@
+/* Write your CSS here */
+.about-section {
+  display: flex;
+  flex-direction: column;
+  margin-top:0px;
+  padding-top:0px;
+}
+.about-heading {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Roboto';
+  color: #0f172a;
+}
+
+@media screen and (min-width: 768px) {
+  .about-heading {
+    font-size: 25px;
+  }
+}
+
+.about-description {
+  font-size: 12px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  color: #1e293b;
+}
+@media screen and (min-width: 768px) {
+  .about-description {
+    font-size: 16px;
+  }
+}
+
+.education-skills-container {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .education-skills-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.education-container {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .education-container {
+    width: 50%;
+  }
+}
+
+.education-heading {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: 'Roboto';
+  color: #0f172a;
+}
+
+@media screen and (min-width: 768px) {
+  .education-heading {
+    font-size: 20px;
+  }
+}
+
+.education-details-items-list {
+  list-style-image: url('https://res.cloudinary.com/lalitha/image/upload/v1618052162/list-icon-16_mboqnl.png');
+  margin-right: 0px;
+  padding-left: 18px;
+}
+@media screen and (max-width: 768px) {
+  .education-details-items-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (min-width: 768px) {
+  .education-details-items-list {
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+}
+.list-item-education {
+  display: flex;
+  flex-direction: column;
+  width: 32%;
+}
+@media screen and (min-width: 768px) {
+  .list-item-education {
+    width: 100%;
+  }
+}
+.qualification {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  color: #334155;
+  margin-bottom: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .qualification {
+    font-size: 20px;
+    font-weight: 700;
+  }
+}
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .skills-container {
+    display: flex;
+    width: 50%;
+  }
+}
+
+.skills-heading {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: 'Roboto';
+  color: #0f172a;
+  margin-bottom: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .skills-heading {
+    font-size: 20px;
+  }
+}
+.skill-items-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  list-style: none;
+  margin-left: 0px;
+  padding-left: 0px;
+  flex-wrap: wrap;
+}
+
+.skill-item {
+  width: 20%;
+  margin-right: 8px;
+  margin-bottom: 12px;
+}
+@media screen and (min-width: 768px) {
+  .skill-item {
+    width: 30%;
+  }
+}
+
+.skill {
+  color: #ec4899;
+  font-weight: 700;
+  font-family: 'Roboto';
+  font-size: 14px;
+  background-color: #ffffff60;
+  padding: 8px 15px 8px 15px;
+  border-radius: 8px;
+  border-width: 0px;
+  border: none;
+}
+
+@media screen and (max-width: 768px) {
+  .skill {
+    font-size: 12px;
+  }
+}
