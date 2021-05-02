@@ -5,7 +5,7 @@ learned till now.
 
 <br/>
 <div style="text-align: center;">
---https://assets.ccbp.in/frontend/content/react-js/stopwatch-output-v2.gif
+--http://assets.ccbp.in/frontend/content/react-js/portfolio-output.gif
 
 
 --<img src="http://assets.ccbp.in/frontend/content/react-js/portfolio-output.gif" alt="portfolio-output" style="max-width:70%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
