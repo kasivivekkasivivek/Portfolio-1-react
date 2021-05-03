@@ -1,7 +1,7 @@
-In this assignment let's build a **Portfolio** by applying the concepts we have
+In this assignment let's build a **Portfolio** 
 learned till now.
 
-### Refer to image below:
+### Refer to image below for the understanding of project :
 
 <br/>
 <div style="text-align: center;">
@@ -46,7 +46,7 @@ The app must have the following functionalities
 - When clicked on any logo in the `SocialMediaSection` the siteUrl for the
   respective app should be opened.
 
-- Your task is to complete the implementation of
+- core code files
   - `src/App.js`
   - `src/App.css`
   - `src/components/Portfolio/index.js`
@@ -134,12 +134,3 @@ The app must have the following functionalities
 #### Font-families
 
 - Roboto
-
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being
->   imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a
->   look at the Cheat Sheets.
